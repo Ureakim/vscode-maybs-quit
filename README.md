@@ -1,4 +1,4 @@
-# vscode-maybs-quit
+# <img src="https://raw.githubusercontent.com/Ureakim/vscode-maybs-quit/master/icon.png" width="50"> Maybs Quit for VS Code
 
 Extension for VS Code inspired by [Maybs-Quit package from Sublime Text](https://github.com/xavi-/sublime-maybs-quit)
 
@@ -8,4 +8,4 @@ Quote :
 >
 > Never again!
 
-![Example](https://raw.githubusercontent.com/Ureakim/vscode-maybs-quit/dev/assets/example.png)
+![Example](https://raw.githubusercontent.com/Ureakim/vscode-maybs-quit/master/assets/example.png)

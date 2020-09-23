@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "publisher": "Ureakim",
+  "icon": "icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ureakim/vscode-maybs-quit"
