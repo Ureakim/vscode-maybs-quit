@@ -1,0 +1,48 @@
+{
+  "name": "vscode-maybs-quit",
+  "displayName": "Maybs Quit for VS Code",
+  "description": "Maybs Quit for VS Code",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "Ureakim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ureakim/vscode-maybs-quit"
+  },
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "keybindings": [
+      {
+        "command": "maybsQuit.guard.quit",
+        "title": "Quit VSCode",
+        "key": "ctrl+Q",
+        "mac": "cmd+Q"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint . --ext .ts,.tsx",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.0",
+    "@types/vscode": "^1.34.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
+    "eslint": "^7.1.0",
+    "typescript": "^4.0.2",
+    "ovsx": "0.1.0-next.bcce4bc",
+    "vsce": "^1.79.5"
+  }
+}

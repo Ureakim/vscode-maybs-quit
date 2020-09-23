@@ -1,0 +1,8 @@
+*.vsix
+.vscode
+assets/
+node_modules/
+src/
+.eslintrc.js
+.gitignore
+tsconfig.json
